@@ -11,6 +11,8 @@ resource "aws_instance" "ec2" {
         sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
         yum upgrade -y
         amazon-linux-extras install java-openjdk11 -y
+        sudo amazon-linux-extras install java-openjdk11
+        sudo yum install java-11-amazon-corretto-devel -y
         yum install jenkins git jq -y
 
         ###########DOCKER################
