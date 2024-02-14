@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-env-os.getenv('ENV')
+env = os.getenv('ENV')
 
 @app.route("/")
 def home():

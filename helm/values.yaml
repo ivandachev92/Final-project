@@ -1,6 +1,6 @@
 deployment:
-        name: flask123
-        image: 142261522871.dkr.ecr.eu-central-1.amazonaws.com/flask123
-        tag: latest
-        replicas: 1
-        port: 5000
+  name: flask123
+  image: 142261522871.dkr.ecr.eu-central-1.amazonaws.com/flask123
+  tag: latest
+  replicas: 1
+  port: 30000
